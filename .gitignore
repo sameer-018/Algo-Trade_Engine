@@ -1,0 +1,36 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# MySQL / database local files
+*.sql.bak
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node.js (if applicable)
+node_modules/
+
+# Build/output
+dist/
+build/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
